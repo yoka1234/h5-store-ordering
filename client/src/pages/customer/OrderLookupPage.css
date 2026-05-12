@@ -1,0 +1,121 @@
+.lookup-page {
+  min-height: 100dvh;
+  background: #f5f5f5;
+}
+.lookup-search {
+  padding: 16px;
+  background: #fff;
+}
+.lookup-search-bar {
+  display: flex;
+  gap: 8px;
+}
+.lookup-input {
+  flex: 1;
+  height: 40px;
+  border: 1px solid #ebedf0;
+  border-radius: 8px;
+  padding: 0 12px;
+  font-size: 14px;
+  outline: none;
+}
+.lookup-input:focus {
+  border-color: var(--color-primary);
+}
+.lookup-btn {
+  height: 40px;
+  padding: 0 20px;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lookup-empty {
+  text-align: center;
+  padding: 40px;
+  color: var(--color-text-secondary);
+}
+.lookup-result {
+  background: #fff;
+  margin-top: 8px;
+  padding: 16px;
+}
+.lookup-status {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.lookup-number {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+}
+.lookup-info .info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.info-label {
+  color: var(--color-text-secondary);
+}
+.lookup-section-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 14px 0 10px;
+}
+.lookup-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 14px;
+}
+.li-name { flex: 1; }
+.li-qty { color: var(--color-text-secondary); margin: 0 8px; }
+.li-subtotal { font-weight: 600; color: var(--color-danger); min-width: 50px; text-align: right; }
+.lookup-total {
+  text-align: right;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #f5f5f5;
+  font-size: 14px;
+}
+.lookup-total-amount {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-danger);
+}
+.lookup-photo-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #f5f5f5;
+}
+.lookup-delivery-photo {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.lookup-payment {
+  margin-top: 16px;
+  padding: 16px;
+  background: linear-gradient(135deg, #fffbe6, #fff7cc);
+  border-radius: 12px;
+  text-align: center;
+}
+.payment-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #e67300;
+  margin-bottom: 6px;
+}
+.payment-desc {
+  font-size: 13px;
+  color: #ad8b00;
+}

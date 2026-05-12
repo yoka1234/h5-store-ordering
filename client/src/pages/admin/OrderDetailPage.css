@@ -1,0 +1,229 @@
+.order-detail {
+  min-height: 100dvh;
+  background: #f5f5f5;
+  padding-bottom: 20px;
+}
+.od-header {
+  background: #fff;
+  padding: 16px;
+  text-align: center;
+}
+.od-status {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.od-number {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+.od-section {
+  background: #fff;
+  margin-top: 8px;
+  padding: 12px 16px;
+}
+.od-section-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.od-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 14px;
+}
+.od-label {
+  color: var(--color-text-secondary);
+}
+.od-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 14px;
+}
+.odi-name { flex: 1; }
+.odi-proxy-badge {
+  display: inline-block;
+  font-size: 10px;
+  padding: 0 4px;
+  border-radius: 3px;
+  background: #fff3e0;
+  color: #e65100;
+  font-weight: 500;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.odi-qty { color: var(--color-text-secondary); margin: 0 8px; }
+.odi-subtotal { font-weight: 600; color: var(--color-danger); min-width: 50px; text-align: right; }
+.od-item-total {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #f5f5f5;
+  font-weight: 600;
+}
+.odi-total-amount {
+  font-size: 20px;
+  color: var(--color-danger);
+}
+.od-actions {
+  padding: 16px;
+}
+.od-delivery-photo {
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.od-delivery-note {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin-top: 6px;
+}
+.od-edit-list {
+  margin-top: 4px;
+}
+.od-edit-item {
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+.odei-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.odei-input {
+  height: 32px;
+  border: 1px solid #ebedf0;
+  border-radius: 6px;
+  padding: 0 8px;
+  font-size: 13px;
+  outline: none;
+  background: #fff;
+}
+.odei-input:focus {
+  border-color: var(--color-primary);
+}
+.odei-name {
+  flex: 1;
+}
+.odei-num {
+  width: 64px;
+  text-align: center;
+}
+.odei-select {
+  height: 32px;
+  border: 1px solid #ebedf0;
+  border-radius: 6px;
+  font-size: 13px;
+  background: #fff;
+}
+.odei-del {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--color-danger);
+  cursor: pointer;
+  width: 28px;
+}
+.odei-label-sm {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  flex-shrink: 0;
+}
+.odei-subtotal {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-danger);
+  text-align: right;
+}
+.odi-remark {
+  font-size: 11px;
+  color: #ff6b35;
+  margin-top: 2px;
+  padding-left: 4px;
+}
+.odei-remark {
+  width: 100%;
+  height: 28px;
+  border: 1px solid #ebedf0;
+  border-radius: 4px;
+  padding: 0 6px;
+  font-size: 12px;
+  outline: none;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+.odei-remark:focus {
+  border-color: var(--color-primary);
+}
+.odei-total {
+  text-align: right;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #ebedf0;
+  font-size: 14px;
+}
+
+/* Payment Status */
+.od-payment-paid {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.od-payment-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #07c160;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.od-payment-info {
+  flex: 1;
+}
+.od-payment-label {
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.od-payment-method-tag {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: #e8f8e8;
+  color: #07c160;
+  font-weight: 500;
+}
+.od-payment-time {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+.od-payment-txn {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+  word-break: break-all;
+}
+.od-payment-unpaid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.od-payment-unpaid .od-payment-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-danger);
+}

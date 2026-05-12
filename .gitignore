@@ -1,0 +1,10 @@
+node_modules/
+dist/
+server/data/
+uploads/*
+!uploads/.gitkeep
+.env
+.DS_Store
+*.sqlite
+.claude/
+cjhx.ltd_nginx/

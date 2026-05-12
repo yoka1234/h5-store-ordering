@@ -1,0 +1,13 @@
+.product-list-page {
+  min-height: 100dvh;
+  background: #fff;
+}
+.product-list {
+  padding-bottom: 80px;
+}
+.empty-tip {
+  text-align: center;
+  padding: 40px 16px;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}

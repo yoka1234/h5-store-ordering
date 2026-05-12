@@ -1,0 +1,104 @@
+.login-page {
+  min-height: 100dvh;
+  background: linear-gradient(180deg, #f0fff4 0%, #f5f5f5 50%, #f0fff4 100%);
+  position: relative;
+}
+.login-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%);
+}
+.login-page::after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background: url('https://neeko-copilot.bytedance.net/api/text2image?prompt=fresh%20seafood%20fish%20vegetables%20healthy%20food%20logo%20simple%20green&image_size=square') no-repeat center;
+  background-size: contain;
+  opacity: 0.8;
+}
+.login-form-wrap {
+  padding: 30px 24px;
+  position: relative;
+  z-index: 1;
+}
+.login-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f2937;
+  position: relative;
+}
+.login-title::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #10b981, #059669);
+  border-radius: 2px;
+}
+.login-subtitle {
+  font-size: 13px;
+  color: #6b7280;
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.login-subtitle::before,
+.login-subtitle::after {
+  content: '';
+  width: 20px;
+  height: 1px;
+  background: #d1d5db;
+}
+.login-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px 24px;
+  box-shadow: 0 10px 40px rgba(16, 185, 129, 0.15);
+  border: 1px solid #d1fae5;
+}
+.login-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
+.login-plant-decoration {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  background: url('https://neeko-copilot.bytedance.net/api/text2image?prompt=fresh%20green%20plant%20leaves%20decoration%20simple%20minimal&image_size=square') no-repeat center;
+  background-size: contain;
+  opacity: 0.3;
+}
+.login-plant-decoration-2 {
+  position: fixed;
+  top: 250px;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  background: url('https://neeko-copilot.bytedance.net/api/text2image?prompt=fresh%20vegetables%20carrot%20broccoli%20decoration%20simple%20minimal&image_size=square') no-repeat center;
+  background-size: contain;
+  opacity: 0.25;
+}

@@ -1,0 +1,119 @@
+.checkout-page {
+  min-height: 100dvh;
+  background: #f5f5f5;
+  padding-bottom: 80px;
+}
+.checkout-delivery {
+  padding: 12px 16px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.delivery-tag {
+  padding: 2px 10px;
+  border-radius: 4px;
+  background: rgba(7, 193, 96, 0.1);
+  color: var(--color-primary);
+  font-size: 13px;
+}
+.checkout-items {
+  padding: 12px 16px;
+  background: #fff;
+  margin-top: 8px;
+}
+.checkout-section-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.checkout-item {
+  padding: 6px 0;
+  font-size: 14px;
+}
+.co-item-main {
+  display: flex;
+  align-items: center;
+}
+.co-item-name {
+  flex: 1;
+}
+.co-item-proxy-badge {
+  display: inline-block;
+  font-size: 10px;
+  padding: 0 4px;
+  border-radius: 3px;
+  background: #fff3e0;
+  color: #e65100;
+  font-weight: 500;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.co-item-remark {
+  font-size: 11px;
+  color: #ff6b35;
+  margin-top: 2px;
+}
+.co-item-qty {
+  color: var(--color-text-secondary);
+  margin: 0 8px;
+}
+.co-item-subtotal {
+  font-weight: 600;
+  color: var(--color-danger);
+  min-width: 50px;
+  text-align: right;
+}
+.checkout-total {
+  text-align: right;
+  padding-top: 10px;
+  border-top: 1px solid #f5f5f5;
+  font-size: 14px;
+  margin-top: 6px;
+}
+.checkout-total-amount {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-danger);
+}
+.checkout-form {
+  padding: 12px 16px;
+  background: #fff;
+  margin-top: 8px;
+}
+.checkout-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #fff;
+  border-top: 1px solid #ebedf0;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  justify-content: space-between;
+}
+.checkout-footer-total {
+  font-size: 14px;
+}
+.total-amount {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-danger);
+}
+.submit-btn {
+  height: 40px;
+  padding: 0 28px;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.submit-btn:disabled {
+  opacity: 0.6;
+}
